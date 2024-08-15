@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.pricing-table {
+    display: flex;
+    gap: 20px;
+}
+
+.pricing-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.pricing-card h2 {
+    margin-top: 0;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-card li {
+    margin: 10px 0;
+}
+
+.pricing-card button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing-card.free {
+    background-color: #f8f9fa;
+}
+
+.pricing-card.pro {
+    background-color: #ffffff;
+}
+
+.pricing-card.enterprise {
+    background-color: #007bff;
+    color: white;
+}
+
+.pricing-card.enterprise button {
+    background-color: #0056b3;
+}
